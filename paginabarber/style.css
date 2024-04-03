@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+.servi{
+    display: flex; 
+    justify-content: space-around;
+}
+.barber{
+    display: flex;
+    padding-left: 400px;
+    font-size: 1.8rem;
+
+}
+.Productos{
+    display: flex; 
+    justify-content: space-around;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.9;
+}
